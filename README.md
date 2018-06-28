@@ -11,6 +11,9 @@ We have Multiverse, RandomSpawn, and VoidSpawn. ClearLagg for entity removal.
 #### Important links
 
 https://github.com/ccodel/mcserver
+
 https://github.com/cmu-rl/HerobrainePlugin
+
 https://teilgedanken.de/Blog/post/setting-up-a-minecraft-server-using-systemd/
+
 https://github.com/ReplayMod
