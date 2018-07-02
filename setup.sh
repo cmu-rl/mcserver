@@ -1,5 +1,5 @@
 #!/bin/bash
-cd mcrcon-code
+cd /home/ubuntu/mcrcon-code
 gcc mcrcon.c -o mcrcon
 cp /home/ubuntu/mcrcon-code/mcrcon /home/ubuntu/
 
