@@ -4,13 +4,19 @@
 
 We have Multiverse, RandomSpawn, and VoidSpawn. ClearLagg for entity removal.
 
+#### To Deploy
+
+Copy mc_server.service to `/lib/systemd/system/`.
+
+Run `sudo service mc_server start`
+
 #### To access from SSH
 
 ./mcrcon -H localhost -P 9999 -p minecraft -t
 
 #### Important links
 
-https://github.com/ccodel/mcserver
+https://github.com/cmu-rl/mcserver
 
 https://github.com/cmu-rl/HerobrainePlugin
 
