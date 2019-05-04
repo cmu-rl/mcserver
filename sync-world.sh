@@ -14,3 +14,5 @@ scp -r -i ~/.ssh/HerobraineEC2.pem ubuntu@mc.herobraine.stream:./mcserver/$world
 mkdir $world/region
 scp -i ~/.ssh/HerobraineEC2.pem ubuntu@mc.herobraine.stream:./mcserver/$world/region/r.0.0.mca ./$world/region/
 scp -i ~/.ssh/HerobraineEC2.pem ubuntu@mc.herobraine.stream:./mcserver/$world/region/r.0.-1.mca ./$world/region/
+scp -i ~/.ssh/HerobraineEC2.pem ubuntu@mc.herobraine.stream:./mcserver/$world/region/r.-1.-1.mca ./$world/region/
+scp -i ~/.ssh/HerobraineEC2.pem ubuntu@mc.herobraine.stream:./mcserver/$world/region/r.-1.0.mca ./$world/region/
