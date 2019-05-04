@@ -17,3 +17,16 @@ usercache.json
 version_history.json
 logs/
 cache/
+
+# Generated files
+ops.json
+paper.yml
+permissions.yml
+spigot.yml
+whitelist.json
+help.yml
+commands.yml
+
+**/playerdata
+**/stats
+**/advancements
