@@ -8,4 +8,3 @@
 ./sync-world.sh o_dia
 ./sync-world.sh o_iron
 ./sync-world.sh o_meat
-./sync-world.sh survivalgames
