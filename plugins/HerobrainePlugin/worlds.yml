@@ -1,0 +1,135 @@
+bundles: [lobby, e_lobby, surv, chop, o_bed, o_meat, o_dia, o_iron, nav_norm, nav_x, survivalgames]
+
+lobby:
+  type: LOBBY
+  experiment: null
+  worlds: [lobby]
+  lobby:
+    environment: NORMAL
+    source: lobby
+    seed: 1844031383945399228
+    replace: false
+    gamemode: ADVENTURE
+
+e_lobby:
+  type: LOBBY
+  experiment: null
+  worlds: [e_lobby]
+  e_lobby:
+    environment: NORMAL
+    source: new_exp_lobby
+    seed: -4196396592785790008
+    replace: false
+    gamemode: ADVENTURE
+
+surv:
+  type: SURVIVAL
+  experiment: null
+  worlds: [surv, surv_nether, surv_the_end]
+  surv:
+    environment: NORMAL
+    source: null
+    seed: -1277996881668244483
+    replace: false
+    gamemode: SURVIVAL
+  surv_nether:
+    environment: NETHER
+    source: null
+    seed: 5997941192441309220
+    replace: false
+    gamemode: SURVIVAL
+  surv_the_end:
+    environment: THE_END
+    source: null
+    seed: 4895397687295581086
+    replace: false
+    gamemode: SURVIVAL
+
+chop:
+  type: EXPERIMENT
+  experiment: survivaltreechop
+  worlds: [chop]
+  chop:
+    environment: NORMAL
+    source: null
+    seed: -2365780468868584739
+    replace: false
+    gamemode: ADVENTURE
+
+o_bed:
+  type: EXPERIMENT
+  experiment: o_bed
+  worlds: [o_bed]
+  o_bed:
+    environment: NORMAL
+    source: null
+    seed: -3470073741030656452
+    replace: false
+    gamemode: ADVENTURE
+
+o_meat:
+  type: EXPERIMENT
+  experiment: o_meat
+  worlds: [o_meat]
+  o_meat:
+    environment: NORMAL
+    source: null
+    seed: -3470073741030656452
+    replace: false
+    gamemode: ADVENTURE
+
+o_dia:
+  type: EXPERIMENT
+  experiment: o_dia
+  worlds: [o_dia]
+  o_dia:
+    environment: NORMAL
+    source: null
+    seed: -3470073741030656452
+    replace: false
+    gamemode: ADVENTURE
+
+o_iron:
+  type: EXPERIMENT
+  experiment: o_iron
+  worlds: [o_iron]
+  o_iron:
+    environment: NORMAL
+    source: null
+    seed: -3470073741030656452
+    replace: false
+    gamemode: ADVENTURE
+
+nav_norm:
+  type: EXPERIMENT
+  experiment: navigate
+  worlds: [nav_norm]
+  nav_norm:
+    environment: NORMAL
+    source: null
+    seed: -2399749211755319688
+    replace: false
+    gamemode: ADVENTURE
+
+nav_x:
+  type: EXPERIMENT
+  experiment: navigateextreme
+  worlds: [nav_x]
+  nav_x:
+    environment: NORMAL
+    source: null
+    seed: -7095714973319392893
+    replace: false
+    gamemode: ADVENTURE
+
+survivalgames:
+  type: EXPERIMENT
+  experiment: null
+  worlds: [survivalgames]
+  survivalgames:
+    environment: NORMAL
+    source: null
+    seed: -7736690053030004316
+    replace: false
+    gamemode: SURVIVAL
+

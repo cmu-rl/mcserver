@@ -1,0 +1,104 @@
+#Experiments defined by their experiment world type, their name, and player count
+
+experiments: [pvp, treechop, housebuild, survivaltreechop, locatetreechop, smallhut, obtainx, navigate, o_bed, o_dia, o_meat, o_iron, survivalgames]
+
+pvp:
+  version: "1.0.1"
+  minimum-players-allowed: 2
+  maximum-players-allowed: 8
+  gamemode: ADVENTURE
+  time-limit: 300
+
+treechop:
+  version: "1.0"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 12
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+housebuild:
+  version: "1.0.2"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 4
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+survivaltreechop:
+  type: SURVIVAL
+  version: "1.0.1"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 12
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+locatetreechop:
+  version: "1.0"
+  minimum-players-allowed: 2
+  maximum-players-allowed: 2
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+smallhut:
+  version: "1.0.2"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 4
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+obtainx:
+  version: "1.0"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 100
+  gamemode: SURVIVAL
+  time-limit: 300
+  
+navigate:
+  version: "1.0"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 300
+
+
+navigateextreme:
+  version: "1.0"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 300
+
+  
+o_bed:
+  version: "1.0.1"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 8000
+  
+o_meat:
+  version: "1.0.1"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 8000
+  
+o_dia:
+  version: "1.0.1"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 8000
+  
+o_iron:
+  version: "1.0.1"
+  minimum-players-allowed: 1
+  maximum-players-allowed: 1
+  gamemode: SURVIVAL
+  time-limit: 8000
+  
+survivalgames:
+  version: "1.0.1"
+  minimum-players-allowed: 2
+  maximum-players-allowed: 100
+  gamemode: SURVIVAL
+  time-limit: 780

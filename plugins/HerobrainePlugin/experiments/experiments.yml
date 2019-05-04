@@ -1,0 +1,35 @@
+survivaltreechop:
+  target-ratio: 0.17391304347
+  average-time: 105384
+  times-completed: 151
+
+navigateextreme:
+  target-ratio: 0.17391304347
+  average-time: 85807
+  times-completed: 125
+
+navigate:
+  target-ratio: 0.1304347826
+  average-time: 62605
+  times-completed: 139
+
+o_dia:
+  target-ratio: 0.08695652
+  average-time: 845612
+  times-completed: 48
+
+o_meat:
+  target-ratio: 0.1304347826
+  average-time: 278499
+  times-completed: 87
+
+o_bed:
+  target-ratio: 0.1304347826
+  average-time: 244679
+  times-completed: 69
+
+o_iron:
+  target-ratio: 0.17391304347
+  average-time: 443907
+  times-completed: 131
+

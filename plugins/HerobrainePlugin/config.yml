@@ -1,0 +1,20 @@
+use-ip: true #If true, will send authentication through IP address
+ip-address: user2.herobraine.stream #Put the IP address of the server here
+use-uuid: false #If true, will hash UUID, if false, will hash username
+port-number: 9999 #Put the port number of the server here
+
+enable-afk: true #If true, will enable the afk checker
+afk-updatetime: 30 #If afk is enabled, this is the number of seconds between check
+session-time-limit: 3600 #If afk is enabled, will kick players after this many minutes of a single session
+
+enable-auto-start: true #If true, will auto start experiments
+auto-start-updatetime: 15 #If enabled, the number of seconds between checks
+
+enable-auto-end: true #If true, will auto end experiments
+auto-end-updatetime: 5 #If enabled, the number of seconds between checks
+
+enable-scoreboard: true #If true, will enable scoreboard in lobby
+scoreboard-updatetime: 10 #Time between scores display cycling
+
+debug: true # Leave to false
+config-version: 1 # DO NOT TOUCH!
