@@ -1,1 +1,25 @@
+# Mac OS files
 *.DS_Store
+
+# Replaceable world files
+nav_norm/
+chop/
+nav_x/
+o_bed/
+o_dia/
+o_iron/
+o_meat/
+surv/
+surv_nether/
+surv_the_end/
+survivalgames/
+
+# Plugin save data
+plugins/HerobrainePlugin/playerdata
+plugins/SkinsRestorer/Skins
+
+# Clutter files
+usercache.json
+version_history.json
+logs/
+cache/
