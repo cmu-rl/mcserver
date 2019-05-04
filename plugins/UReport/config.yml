@@ -1,0 +1,74 @@
+Prefix: '&7[&9UReport&7]'
+NoPerm: '&cYou do not have permission for this command!'
+Date: MM/dd/yyyy - HH:mm.ss
+Admin_Alert: '&cAdmin: &7The player &6{player} &7has been reported by: &6{reporter}&7!'
+Help_Line: '&7=============[&9UReport&7]============='
+Report_Slots:
+  '1':
+    Item: minecraft:stone
+    Name: '&cExample1'
+    Data: 0
+    Amount: 1
+    Lore:
+    - Example Lore 1
+    - Example Lore 2
+    Command: say Example;say Example 2
+    Permission: Your.custom.permission
+  '2':
+    Item: minecraft:stone
+    Name: '&cExample2'
+    Data: 0
+    Amount: 1
+    Lore:
+    - Example Lore 1
+    - Example Lore 2
+    Command: say Example;say Example 2
+    Permission: Your.custom.permission2
+  '3':
+    Item: minecraft:stone
+    Name: '&cExample3'
+    Data: 0
+    Amount: 1
+    Lore:
+    - Example Lore 1
+    - Example Lore 2
+    Command: say Example;say Example 2
+    Permission: Your.custom.permission3
+  '4':
+    Item: minecraft:stone
+    Name: '&cExample4'
+    Data: 0
+    Amount: 1
+    Lore:
+    - Example Lore 1
+    - Example Lore 2
+    Command: say Example;say Example 2
+    Permission: Your.custom.permission4
+  '5':
+    Item: minecraft:stone
+    Name: '&cExample5'
+    Data: 0
+    Amount: 1
+    Lore:
+    - Example Lore 1
+    - Example Lore 2
+    Command: say Example;say Example 2
+    Permission: Your.custom.permission5
+  '6':
+    Item: minecraft:wooden_axe
+    Name: '&cBans'
+    Data: 0
+    Amount: 1
+    Lore:
+    - '&cSelect from one of the ban reasons here!'
+    Command: noclose
+    Permission: none
+  '7':
+    Item: minecraft:book
+    Name: '&cFly Hack'
+    Data: 0
+    Amount: 1
+    Lore:
+    - '&cBan the player for 5 days'
+    Command: ban %player% 5d &cFly Reloated Hacking
+    Permission: none
