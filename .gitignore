@@ -19,7 +19,6 @@ logs/
 cache/
 
 # Generated files
-ops.json
 paper.yml
 permissions.yml
 spigot.yml

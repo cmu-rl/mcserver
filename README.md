@@ -12,6 +12,10 @@ If these signs/command blocks have manual edits that need to be committed to ver
 
 TODO there needs to be a similar script for syncing the lobby
 
+#### Server maintenance
+
+Never `op` a player on the server. Because anyone can connect to the offline mode server with any username, this would be a vulnerability. Instead, run op commands from `rcon`.
+
 #### To Deploy
 
 Copy mc_server.service to `/lib/systemd/system/`.
