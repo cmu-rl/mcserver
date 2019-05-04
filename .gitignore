@@ -2,13 +2,6 @@
 *.DS_Store
 
 # Replaceable world files
-nav_norm/
-chop/
-nav_x/
-o_bed/
-o_dia/
-o_iron/
-o_meat/
 surv/
 surv_nether/
 surv_the_end/
@@ -16,6 +9,7 @@ survivalgames/
 
 # Plugin save data
 plugins/HerobrainePlugin/playerdata
+plugins/HerobrainePlugin/experiments
 plugins/SkinsRestorer/Skins
 
 # Clutter files
